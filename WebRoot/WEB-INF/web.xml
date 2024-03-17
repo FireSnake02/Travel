@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>cn.edu.songmx.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ForgetPasswordServlet</servlet-name>
+    <servlet-class>cn.edu.songmx.servlet.ForgetPasswordServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>IndexServlet</servlet-name>
+    <servlet-class>cn.edu.songmx.servlet.IndexServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>cn.edu.songmx.servlet.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RecommendationServlet</servlet-name>
+    <servlet-class>cn.edu.songmx.servlet.RecommendationServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PersonInfoServlet</servlet-name>
+    <servlet-class>cn.edu.songmx.servlet.PersonInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ReserveServlet</servlet-name>
+    <servlet-class>cn.edu.songmx.servlet.ReserveServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ReserveManageServlet</servlet-name>
+    <servlet-class>cn.edu.songmx.servlet.ReserveManageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdminServlet</servlet-name>
+    <servlet-class>cn.edu.songmx.servlet.AdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserInfoServlet</servlet-name>
+    <servlet-class>cn.edu.songmx.servlet.UserInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserListServlet</servlet-name>
+    <servlet-class>cn.edu.songmx.servlet.UserListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserAddServlet</servlet-name>
+    <servlet-class>cn.edu.songmx.servlet.UserAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserEditServlet</servlet-name>
+    <servlet-class>cn.edu.songmx.servlet.UserEditServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PlanListServlet</servlet-name>
+    <servlet-class>cn.edu.songmx.servlet.PlanListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RestaurantListServlet</servlet-name>
+    <servlet-class>cn.edu.songmx.servlet.RestaurantListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HotelListServlet</servlet-name>
+    <servlet-class>cn.edu.songmx.servlet.HotelListServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ForgetPasswordServlet</servlet-name>
+    <url-pattern>/ForgetPasswordServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IndexServlet</servlet-name>
+    <url-pattern>/IndexServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RecommendationServlet</servlet-name>
+    <url-pattern>/RecommendationServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PersonInfoServlet</servlet-name>
+    <url-pattern>/PersonInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReserveServlet</servlet-name>
+    <url-pattern>/ReserveServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReserveManageServlet</servlet-name>
+    <url-pattern>/ReserveManageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminServlet</servlet-name>
+    <url-pattern>/AdminServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserInfoServlet</servlet-name>
+    <url-pattern>/UserInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserListServlet</servlet-name>
+    <url-pattern>/UserListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserAddServlet</servlet-name>
+    <url-pattern>/UserAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserEditServlet</servlet-name>
+    <url-pattern>/UserEditServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PlanListServlet</servlet-name>
+    <url-pattern>/PlanListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RestaurantListServlet</servlet-name>
+    <url-pattern>/RestaurantListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HotelListServlet</servlet-name>
+    <url-pattern>/HotelListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AttractionListServlet</servlet-name>
+    <url-pattern>/AttractionListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommentListServlet</servlet-name>
+    <url-pattern>/CommentListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RestaurantAddServlet</servlet-name>
+    <url-pattern>/RestaurantAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HotelAddServlet</servlet-name>
+    <url-pattern>/HotelAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AttractionAddServlet</servlet-name>
+    <url-pattern>/AttractionAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommentAddServlet</servlet-name>
+    <url-pattern>/CommentAddServlet</url-pattern>
+  </servlet-mapping>
+    <welcome-file-list>
+        <welcome-file>LoginServlet</welcome-file>
+    </welcome-file-list>
+    <servlet>
+        <servlet-name>AttractionListServlet</servlet-name>
+        <servlet-class>cn.edu.songmx.servlet.AttractionListServlet</servlet-class>
+    </servlet>
+  <servlet>
+    <servlet-name>CommentListServlet</servlet-name>
+    <servlet-class>cn.edu.songmx.servlet.CommentListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RestaurantAddServlet</servlet-name>
+    <servlet-class>cn.edu.songmx.servlet.RestaurantAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HotelAddServlet</servlet-name>
+    <servlet-class>cn.edu.songmx.servlet.HotelAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AttractionAddServlet</servlet-name>
+    <servlet-class>cn.edu.songmx.servlet.AttractionAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CommentAddServlet</servlet-name>
+    <servlet-class>cn.edu.songmx.servlet.CommentAddServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+</web-app>
